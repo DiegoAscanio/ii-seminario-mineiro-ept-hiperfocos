@@ -3,6 +3,10 @@
   section {
     background: #fff url(./img/background.png) no-repeat center center;
     background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .transparent {
@@ -17,32 +21,6 @@
     background-color: rgba(0, 0, 0, 0.0) !important;
   }
 
-  .cabecalho {
-    position: absolute;
-    top: 10%;
-    margin-left: 5%;
-    margin-right: 10%;
-    font-size: 48px;
-    font-weight: bold;
-  }
-
-  .conteudo {
-    top: 30%;
-    margin-top: 7.5vh;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 28px;
-    text-align: justify;
-  }
-
-  .conteudo-absoluto {
-    position: absolute;
-    top: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 28px;
-    text-align: justify;
-  }
   .huge {
     font-size: 32px;
   }
