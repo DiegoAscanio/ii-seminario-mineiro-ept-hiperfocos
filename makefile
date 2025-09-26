@@ -1,5 +1,5 @@
 all:
-	$(shell ./build_slides.py)
+	$(shell python build_slides.py)
 	$(shell marp --html index.md)
 
 clean:

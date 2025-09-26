@@ -56,7 +56,7 @@ END
 start_web_server() {
     echo "Starting local web server..."
     newgrp docker<<END
-docker run --name wserver --rm -d -p 8000:8000 -v "$(pwd)":/workspace diegoascanio/cefetmg:slides ./simple_http.sh &
+docker run --name wserver --rm -d -p 8000:8000 -v "$(pwd)":/workspace diegoascanio/cefetmg:slides bash /workspace/simple_http.sh &
 END
 }
 
